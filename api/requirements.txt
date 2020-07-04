@@ -1,0 +1,11 @@
+flask-cors
+requests
+apispec>=0.38.0
+Flask>=1.1.2
+PyYAML>=3.0
+jsonschema>=2.5.1
+six>=1.10.0
+mistune
+werkzeug>=0.14.1
+psycopg2-binary==2.8.4
+marshmallow

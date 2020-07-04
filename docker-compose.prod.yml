@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: ./api/Dockerfile.prod
+    command: gunicorn -w 2 -b :8000 api.v1:app
+    ports:
+      - 8080:8080
